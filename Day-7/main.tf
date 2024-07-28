@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 provider "vault" {
-  address = "<>:8200"
+  address = "<server-ipadd>:8200"
   skip_child_token = true
 
   auth_login {
